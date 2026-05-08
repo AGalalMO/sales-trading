@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+.content-wrap {
+  width: min(100% - 2rem, 1440px);
+  margin-inline: auto;
+}
+
+.hero-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(16, 185, 129, 0.26), transparent 45%),
+    radial-gradient(circle at 78% 14%, rgba(45, 212, 191, 0.2), transparent 42%),
+    linear-gradient(140deg, rgba(3, 25, 23, 0.9), rgba(2, 10, 10, 0.96));
+}
+
+@media (min-width: 768px) {
+  .content-wrap {
+    width: min(100% - 4rem, 1440px);
+  }
+}
