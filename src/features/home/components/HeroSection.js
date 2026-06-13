@@ -20,7 +20,7 @@ export default function HeroSection () {
 
                     <h1 className="max-w-2xl text-xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl">
                         Trading Arm of BARQ Systems
-                        <span className="block text-emerald-300">Market Access to Egyptian Market</span>
+                        <span className="block text-emerald-300 mt-4">Market Access to Egyptian Market</span>
                     </h1>
 
                   
