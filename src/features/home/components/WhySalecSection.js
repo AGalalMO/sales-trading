@@ -25,8 +25,7 @@ export default function WhySalecSection() {
       <div className="content-wrap">
         <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Why SALEC</p>
         <h2 className="mt-4 max-w-5xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
-          Licensed where it matters. Trusted when it counts.
-        </h2>
+Licensed & Trusted in Egypt        </h2>
         <p className="mt-5 max-w-3xl text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
           Three reasons enterprise teams pick SALEC as their first call when shipping into Egypt.
         </p>

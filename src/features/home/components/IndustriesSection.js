@@ -2,21 +2,19 @@ const industries = [
   { name: "Telecommunications", short: "TELECOM" },
   { name: "IT & Electronics", short: "IT" },
   { name: "Industrial & Manufacturing", short: "INDUSTRIAL" },
-  { name: "General Trading", short: "TRADE" },
-  { name: "Infrastructure", short: "INFRA" },
+  { name: "General Trading & Commodities", short: "TRADE" },
+  { name: " Infrastructure & Projects", short: "INFRA" },
 ];
 
 export default function IndustriesSection() {
   return (
     <section className="bg-[#02110f] py-20 sm:py-24">
       <div className="content-wrap">
-        <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Industries we ship for</p>
+        <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Key Sectors</p>
         <h2 className="mt-4 max-w-5xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
           Built for the verticals that actually move volume.
         </h2>
-        <p className="mt-5 max-w-4xl text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
-          Our customs handling, documentation, and storage are tuned to the goods our clients ship most.
-        </p>
+       
 
         <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {industries.map((industry) => (

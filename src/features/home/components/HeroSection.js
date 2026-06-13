@@ -14,35 +14,20 @@ export default function HeroSection () {
                 <div>
                     <div className="mb-6 flex flex-wrap items-center gap-3 text-xs text-emerald-200/75">
                         <span className="rounded-full bg-emerald-400/20 px-3 py-1 font-medium text-emerald-200">
-                            Onboarding Q2 2026
+                            SALEC TRADING
                         </span>
-                        <span>Bonded warehousing now live - Cairo and Alexandria</span>
                     </div>
 
-                    <h1 className="max-w-2xl text-5xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl">
-                        Your shortcut to
-                        <span className="block text-emerald-300">the Egyptian market.</span>
+                    <h1 className="max-w-2xl text-xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl">
+                        Trading Arm of BARQ Systems
+                        <span className="block text-emerald-300">Market Access to Egyptian Market</span>
                     </h1>
 
-                    <p className="mt-6 max-w-xl text-base leading-relaxed text-emerald-50/70 sm:text-lg">
-                        Licensed Importer of Record, customs clearance, transportation, and warehousing in one accountable team.
-                        Move faster with a single operating partner.
-                    </p>
+                  
 
-                    <div className="mt-8 flex flex-wrap items-center gap-3">
-                        <button className="rounded-xl bg-emerald-400 px-6 py-3 text-sm font-semibold text-[#03211d] transition-transform hover:-translate-y-0.5">
-                            Start importing
-                        </button>
-                        <button className="rounded-xl border border-emerald-100/20 bg-white/5 px-6 py-3 text-sm font-semibold text-emerald-50/90 transition-colors hover:bg-white/10">
-                            See how it works
-                        </button>
-                    </div>
+                  
 
-                    <div className="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-xs text-emerald-100/65 sm:text-sm">
-                        <span>Licensed importer</span>
-                        <span>Operating since 2009</span>
-                        <span>Egypt - KSA - UAE</span>
-                    </div>
+                  
                 </div>
 
                 <div className="relative mx-auto w-full max-w-140">

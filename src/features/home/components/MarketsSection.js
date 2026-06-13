@@ -2,30 +2,30 @@ const markets = [
   {
     code: "EG",
     country: "Egypt",
-    status: "Headquarters",
-    badge: "HQ",
-    cities: ["Cairo", "Alexandria", "Port Said", "Sokhna"],
+    status: "Active market",
+    badge: "",
+    cities: [],
     points: [
-      "IOR licensing",
-      "Bonded warehousing",
-      "Customs brokerage",
-      "Domestic distribution",
+     
     ],
-    highlight: true,
+    highlight: false,
   },
   {
     code: "SA",
-    country: "Saudi Arabia",
+    country: "Kingdom of Saudi Arabia",
     status: "Active market",
-    cities: ["Riyadh", "Jeddah", "Dammam"],
-    points: ["Cross-border freight", "Project logistics", "Last-mile coverage"],
+    cities: [],
+    points: [],
+    badge: '',
+    highlight: true,
+
   },
   {
     code: "AE",
     country: "United Arab Emirates",
     status: "Active market",
-    cities: ["Dubai", "Jebel Ali", "Abu Dhabi"],
-    points: ["Free-zone operations", "Re-export hub", "Consolidation services"],
+    cities: [],
+    points: [],
   },
 ];
 
@@ -45,23 +45,23 @@ export default function MarketsSection() {
           {markets.map((market) => (
             <article
               key={market.country}
-              className={`rounded-xl border border-emerald-200/15 px-6 py-6 ${market.highlight
+              className={`rounded-xl border border-emerald-200/15 p-3 py-6 group ${market.highlight
                 ? "bg-[linear-gradient(145deg,rgba(13,90,69,0.28),rgba(1,27,24,0.9))]"
-                : "bg-[linear-gradient(145deg,rgba(7,42,36,0.25),rgba(1,24,22,0.86))]"
+                : "bg-[linear-gradient(145deg,rgba(7,42,36,0.25),rgba(1,24,22,0.86))] hover:bg-[linear-gradient(145deg,rgba(13,90,69,0.28),rgba(1,27,24,0.9))]"
                 }`}
             >
               <div className="flex items-start justify-between gap-3">
                 <div className="flex items-center gap-3">
                   <div
-                    className={`flex h-11 w-11 items-center justify-center rounded-lg text-sm font-semibold ${market.highlight
+                    className={`flex min-h-11 min-w-11 items-center justify-center rounded-lg text-sm font-semibold ${market.highlight
                       ? "bg-emerald-400 text-[#053126]"
-                      : "bg-emerald-300/10 text-emerald-100"
+                      : "bg-emerald-300/10 text-emerald-100 group-hover:bg-emerald-400 group-hover:hover:text-[#053126]"
                       }`}
                   >
                     {market.code}
                   </div>
                   <div>
-                    <h3 className="text-4xl font-medium leading-tight text-emerald-50">{market.country}</h3>
+                    <h3 className="text-3xl font-medium leading-tight text-emerald-50">{market.country}</h3>
                     <p className="text-sm text-emerald-50/65">{market.status}</p>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ export default function MarketsSection() {
 
               <p className="mt-5 text-sm text-emerald-50/55">{market.cities.join("  •  ")}</p>
 
-              <ul className="mt-5 space-y-2 border-t border-emerald-100/12 pt-4 text-lg text-emerald-50/76">
+              <ul className="mt-5 space-y-2  pt-4 text-lg text-emerald-50/76">
                 {market.points.map((point) => (
                   <li key={point} className="flex items-center gap-2">
                     <span className="text-emerald-300">✓</span>
@@ -83,13 +83,7 @@ export default function MarketsSection() {
                 ))}
               </ul>
 
-              <a
-                href="#"
-                className="mt-6 inline-flex items-center text-xl font-medium text-emerald-300 transition-colors hover:text-emerald-200"
-              >
-                Discuss a {market.country} shipment
-                <span className="ml-1">→</span>
-              </a>
+            
             </article>
           ))}
         </div>

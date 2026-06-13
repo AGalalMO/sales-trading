@@ -3,7 +3,7 @@ const services = [
         title: "Importer of Record",
         description:
             "We are the legal importer in Egypt. You ship; we hold the license, file the paperwork, and absorb compliance risk.",
-        tags: ["IOR", "Tax & duty", "No local entity"],
+        tags: ["IOR"],
         featured: true,
     },
     {
@@ -63,13 +63,7 @@ function ServiceCard ({ service }) {
                 ))}
             </div>
 
-            <a
-                href="#"
-                className="mt-5 inline-flex items-center text-lg font-medium text-emerald-300 transition-colors hover:text-emerald-200"
-            >
-                Learn more
-                <span className="ml-1">→</span>
-            </a>
+          
         </article>
     );
 }
@@ -80,17 +74,21 @@ export default function ServicesSection () {
             <div className="content-wrap max-w-6xl">
                 <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Services</p>
                 <h2 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
-                    A complete logistics stack - under one license.
+                    A complete logistics stack - under one solution.
                 </h2>
                 <p className="mt-4 max-w-3xl text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
                     From compliance to delivery, take the clear route. Five connected services operated as one product.
                 </p>
+                <div className="mt-10 grid gap-3 w-full">
+                    <ServiceCard key={services[4].title} service={services[4]} />
 
-                <div className="mt-10 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                    {services.map((service) => (
+                </div>
+                <div className="mt-10 grid gap-3 sm:grid-cols-2 xl:grid-cols-2">
+                    {services?.slice(0,4).map((service) => (
                         <ServiceCard key={service.title} service={service} />
                     ))}
                 </div>
+               
             </div>
         </section>
     );

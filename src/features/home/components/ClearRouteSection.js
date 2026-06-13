@@ -1,37 +1,32 @@
 const steps = [
   {
     number: "01",
-    title: "Discover",
-    description: "Map your product line, sourcing geography, target volumes, and timeline.",
+    title: "Registered",
+    description: "with the National Telecom Regulatory Authority (NTRA)",
     icon: "diamond",
   },
   {
     number: "02",
-    title: "Comply",
+    title: "Authorized",
     description:
-      "HS coding, regulatory licensing, and IOR documentation packaged before pickup.",
+      "to import electronics shipments ",
     icon: "diamond",
   },
   {
     number: "03",
-    title: "Ship",
+    title: "Serving",
     description:
-      "Origin pickup, freight booking, pre-arrival processing, and on-port customs.",
-    icon: "outlined",
-  },
-  {
-    number: "04",
-    title: "Distribute",
-    description:
-      "Bonded or standard warehousing, then dispatched to your B2B customers under SLA.",
+      "Serving major telecom and industrial companies in Egypt",
     icon: "circle",
   },
   {
-    number: "05",
-    title: "Report",
-    description: "Monthly performance reports, audit trails, and dedicated account team.",
-    icon: "half",
+    number: "04",
+    title: "Strong",
+    description:
+      "compliance with local regulations",
+    icon: "circle",
   },
+  
 ];
 
 function StepIcon({ icon }) {
@@ -58,16 +53,16 @@ export default function ClearRouteSection() {
   return (
     <section className="border-b border-white/10 bg-[#021210] py-20 sm:py-24">
       <div className="content-wrap">
-        <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">The clear route</p>
+        <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Why SALEC</p>
         <h2 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
-          Five steps, one operating system.
+          Licensed & Trusted in Egypt
         </h2>
         <p className="mt-5 max-w-3xl text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
           Designed to make market entry boring in the way that compounding returns are boring.
         </p>
 
         <div className="mt-11 rounded-2xl border border-emerald-100/12 bg-[linear-gradient(145deg,rgba(8,44,40,0.34),rgba(1,19,17,0.88))] p-6 sm:p-8">
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5 lg:gap-7">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-7">
             {steps.map((step) => (
               <article key={step.number} className="relative">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg border border-emerald-200/18 bg-emerald-300/10 text-emerald-300">

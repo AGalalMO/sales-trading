@@ -18,9 +18,10 @@ export default function HomeFeature () {
                 <PromiseSection />
                 <ServicesSection />
                 <ClearRouteSection />
-                <WhySalecSection />
-                <IndustriesSection />
+                {/* <WhySalecSection /> */}
                 <MarketsSection />
+
+                <IndustriesSection />
                 <GetStartedSection />
             </main>
             <Footer />
