@@ -1,3 +1,5 @@
+import GetStartedSection from "./GetStartedSection";
+
 const markets = [
   {
     code: "EG",
@@ -6,27 +8,11 @@ const markets = [
     badge: "",
     cities: [],
     points: [
-     
+     'Egypt is home and the command center'
     ],
-    highlight: false,
-  },
-  {
-    code: "SA",
-    country: "Kingdom of Saudi Arabia",
-    status: "Active market",
-    cities: [],
-    points: [],
-    badge: '',
     highlight: true,
-
   },
-  {
-    code: "AE",
-    country: "United Arab Emirates",
-    status: "Active market",
-    cities: [],
-    points: [],
-  },
+  
 ];
 
 export default function MarketsSection() {
@@ -35,13 +21,18 @@ export default function MarketsSection() {
       <div className="content-wrap">
         <p className="text-xs uppercase tracking-[0.14em] text-emerald-300/85">Markets we serve</p>
         <h2 className="mt-4 max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-6xl">
-          Three countries. One operating standard.
+          Import from the world to
+          Egypt
         </h2>
-        <p className="mt-5 max-w-3xl text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
-          Egypt is home and command center. KSA and UAE extend the same compliance posture across the region.
-        </p>
+        <p className="mt-5 max-w-3xl capitalize text-lg leading-relaxed text-emerald-50/70 sm:text-2xl">
+        Leveraging its
+          unique geographic, we transform Egypt into
+          your central hub for seamless market access
+          across the region        </p>
+       
+                <GetStartedSection />
 
-        <div className="mt-10 grid gap-4 lg:grid-cols-3">
+        {/* <div className="mt-10 grid gap-4 lg:grid-cols-3">
           {markets.map((market) => (
             <article
               key={market.country}
@@ -86,7 +77,7 @@ export default function MarketsSection() {
             
             </article>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -14,14 +14,14 @@ export default function GetStartedSection() {
 
             <div className="mt-9 flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 md:gap-3">
               <a
-                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex items-center justify-center"
+                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex flex-col items-center justify-center"
               >
-                Gateway to Africa & Middle East 
+                <span>Gatewayy to Africa & Middle East</span>
               </a>
               <a
-                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10  w-full md:flex-1 h-20 flex items-center justify-center"
+                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10  w-full md:flex-1 h-20 flex flex-col items-center justify-center"
               >
-                Growing demand across sectors 
+                <span>Growing demand across sectors</span>
               </a>
      
              
@@ -29,20 +29,20 @@ export default function GetStartedSection() {
             <div className="mt-9 flex flex-col md:flex-row flex-wrap items-center justify-center gap-6 md:gap-3">
            
               <a
-                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex items-center justify-center"
+                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex flex-col items-center justify-center"
               >
-                Strong import opportunities
+                <span>Strong import opportunities</span>
               </a>
               <a
-                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex items-center justify-center"
+                className="rounded-xl border border-emerald-100/20 bg-white/4 px-8 py-3 text-lg font-medium text-emerald-50/90 transition-colors hover:bg-white/10 w-full md:flex-1 h-20 flex flex-col items-center justify-center"
               >
-                Central logistics location              </a>
+                <span>Central logistics location</span>
+              </a>
 
             </div>
           </div>
 
-          <div className="border-t border-emerald-100/12 bg-[linear-gradient(90deg,rgba(16,185,129,0.08),rgba(45,212,191,0.05),rgba(16,185,129,0.08))] px-6 py-5 text-center text-sm text-emerald-50/55 sm:text-base">
-SALEC Trading | BARQ Systems Group          </div>
+        
         </div>
       </div>
     </section>

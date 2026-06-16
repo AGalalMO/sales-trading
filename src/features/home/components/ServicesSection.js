@@ -2,33 +2,37 @@ const services = [
     {
         title: "Importer of Record",
         description:
-            "We are the legal importer in Egypt. You ship; we hold the license, file the paperwork, and absorb compliance risk.",
+            `Act as your legal importer in
+Egypt — no local entity required`,
         tags: ["IOR"],
         featured: true,
     },
     {
-        title: "Customs clearance",
+        title: "Freight Coordination",
         description:
-            "Pre-arrival HS coding, accredited brokers at every port, and sub-48h average clearance for IT and telecom cargo.",
-        tags: ["Port Said", "Alexandria", "Sokhna"],
+            `End-to-end shipping coordination
+across air, sea, and land.`,
+        tags: ["E2E"],
     },
     {
-        title: "Transportation",
+        title: "Customs Clearance",
         description:
-            "Owned and partner fleet - FTL, LTL, temperature-controlled lanes, with cross-border capability into KSA and UAE.",
-        tags: ["FTL", "LTL", "Cross-border"],
+            "Full documentation handling and regulatory compliance at all ports of entry",
+        tags: ["CC"],
     },
     {
-        title: "Warehousing",
+        title: "Warehousing & Delivery",
         description:
-            "Bonded and standard warehousing in Cairo and Alexandria with WMS-integrated kitting and SLA-backed dispatch.",
-        tags: ["Bonded", "WMS", "Kitting"],
+            `Secure storage and last-mile
+delivery across Egypt.`,
+        tags: ["WAREHOUSING"],
     },
     {
-        title: "End-to-end supply chain",
+        title: "Compliance Support",
         description:
-            "One accountable contract from origin pickup to your customer's receiving dock - with monthly performance reporting.",
-        tags: ["One contract", "One SLA", "One team"],
+            `Import documentation,
+licensing, and regulatory guidance.`,
+        tags: ["CS", ],
     },
 ];
 

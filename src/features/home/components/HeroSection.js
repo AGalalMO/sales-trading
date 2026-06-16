@@ -1,9 +1,8 @@
 const routeItems = [
-    { place: "Shenzhen", label: "CN", state: "Origin" },
-    { place: "Singapore", label: "SG", state: "Transshipment" },
-    { place: "Suez Canal", label: "", state: "In transit", active: true },
-    { place: "Port Said", label: "EG", state: "Customs" },
-    { place: "Cairo DC", label: "", state: "Last mile" },
+    { place: "End-to-End Import Solutions", label: "", state: "" },
+    { place: "IOR SPECIALIST", label: "", state: "", active: true },
+    { place: "TECHNOLOGY IMPORTS", label: "", state: "", },
+    { place: "EGYPT MARKET ENTRY", label: "", state: "" },
 ];
 
 export default function HeroSection () {
@@ -19,8 +18,8 @@ export default function HeroSection () {
                     </div>
 
                     <h1 className="max-w-2xl text-xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl">
-                        Trading Arm of BARQ Systems
-                        <span className="block text-emerald-300 mt-4">Market Access to Egyptian Market</span>
+                        Providing Importer of
+Record (IOR)                        <span className="block text-emerald-300 mt-4">Market Access to Egyptian Market</span>
                     </h1>
 
                   
@@ -32,10 +31,7 @@ export default function HeroSection () {
 
                 <div className="relative mx-auto w-full max-w-140">
                     <div className="rounded-2xl border border-emerald-100/10 bg-[#06201f]/75 p-4 shadow-[0_30px_80px_-35px_rgba(16,185,129,0.5)] backdrop-blur">
-                        <div className="mb-3 flex items-center justify-between px-2 text-xs text-emerald-100/60">
-                            <span>Shipment SLC-29481</span>
-                            <span>Open</span>
-                        </div>
+                       
                         <div className="space-y-2">
                             {routeItems.map((item) => (
                                 <div
@@ -55,16 +51,9 @@ export default function HeroSection () {
                         </div>
                     </div>
 
-                    <div className="absolute -right-7 -top-7 hidden max-w-55 rounded-xl border border-emerald-100/10 bg-[#0c2a28]/80 p-3 text-xs text-emerald-50/85 shadow-xl backdrop-blur sm:block">
-                        <p className="mb-1 text-[11px] uppercase tracking-[0.12em] text-emerald-200/70">IOR Licensed</p>
-                        <p>Cleared by SALEC under Egyptian customs license #4029-A.</p>
-                    </div>
+                   
 
-                    <div className="absolute -bottom-8 left-5 hidden rounded-xl border border-emerald-100/10 bg-[#072321]/80 p-4 shadow-xl backdrop-blur sm:block">
-                        <p className="text-xs uppercase tracking-[0.13em] text-emerald-200/75">On-Time</p>
-                        <p className="text-3xl font-semibold text-white">98.6%</p>
-                        <p className="text-xs text-emerald-50/70">last 12 months</p>
-                    </div>
+                  
                 </div>
             </div>
         </section>
