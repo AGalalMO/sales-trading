@@ -1,5 +1,5 @@
 const routeItems = [
-    { place: "End-to-End Import Solutions", label: "", state: "" },
+    { place: "END-TO-END IMPORT SOLUTIONS", label: "", state: "" },
     { place: "IOR SPECIALIST", label: "", state: "", active: true },
     { place: "TECHNOLOGY IMPORTS", label: "", state: "", },
     { place: "EGYPT MARKET ENTRY", label: "", state: "" },
