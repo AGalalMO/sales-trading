@@ -6,16 +6,11 @@ export default function HomeHeader() {
       <div className="content-wrap flex h-18 items-center justify-between gap-8">
         <div className="flex items-center gap-3">
           <img src="/logo.svg" className="w-[220px] object-fill" />       
-          <p className="hidden text-xs text-emerald-50/70 sm:block">| BARQ Systems Group</p>
         </div>
 
-        {/* <nav className="hidden items-center gap-7 text-sm text-emerald-50/80 md:flex">
-          {navItems.map((item) => (
-            <a key={item} href="#" className="transition-colors hover:text-emerald-200">
-              {item}
-            </a>
-          ))}
-        </nav> */}
+        <nav className="hidden items-center gap-7 text-sm text-emerald-50/80 md:flex">
+          <a className="underline" href="files/salec-company-Profile.pdf" download>Download Our Company Profile</a>
+        </nav>
 
        
       </div>

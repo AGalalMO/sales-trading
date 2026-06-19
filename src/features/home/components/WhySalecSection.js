@@ -8,7 +8,7 @@ const reasons = [
   {
     title: "Trusted when it counts",
     description:
-      "Born from BARQ Systems Group in 2009. The same team that built telecom rollouts across MENA now moves the gear that powers them.",
+      "Born  in 2009. The same team that built telecom rollouts across MENA now moves the gear that powers them.",
     proof: "15+ years in MENA",
   },
   {
