@@ -1,10 +1,10 @@
 const industries = [
-  { name: "Networking Companies", short: "NETWORK" },
-  { name: "IT & Electronics", short: "IT" },
+  { name: "Networking Companies", short: "" },
+  { name: "IT & Electronics", short: "" },
   {
-    name: "Technology imports\nCompanies", short: "TECHNOLOGY" },
-  { name: "Global Vendors", short: "GLOBAL" },
-  { name: "System Integrators", short: "SI" },
+    name: "Technology imports\nCompanies", short: "" },
+  { name: "Global Vendors", short: "" },
+  { name: "System Integrators", short: "" },
 ];
   
 export default function IndustriesSection() {
@@ -31,9 +31,9 @@ export default function IndustriesSection() {
 
                 <h3 className="mt-6 text-3xl font-medium leading-tight text-emerald-50 wrap-break-word">{industry.name}</h3>
               </div>
-              <span className="mt-6 inline-block w-fit rounded-sm border border-emerald-100/12 bg-white/6 px-2 py-1 text-xs tracking-[0.09em] text-emerald-50/62">
+              {industry.short && (<span className="mt-6 inline-block w-fit rounded-sm border border-emerald-100/12 bg-white/6 px-2 py-1 text-xs tracking-[0.09em] text-emerald-50/62">
                 {industry.short}
-              </span>
+              </span>)}
             </article>
           ))}
         </div>

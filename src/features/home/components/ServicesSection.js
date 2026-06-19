@@ -12,29 +12,27 @@ Egypt — no local entity required`,
         description:
             `End-to-end shipping coordination
 across air, sea, and land.`,
-        tags: ["E2E"],
+        tags: [],
     },
     {
         title: "Customs Clearance",
         description:
             "Full documentation handling and regulatory compliance at all ports of entry",
-        tags: ["CC"],
-    },
+        tags: [], },
     {
         title: "Warehousing & Delivery",
         description:
             `Secure storage and last-mile
 delivery across Egypt.`,
-        tags: ["WAREHOUSING"],
+        tags: [],
     },
     {
         title: "Compliance Support",
         description:
             `Import documentation,
 licensing, and regulatory guidance.`,
-        tags: ["CS", ],
-    },
-];
+        tags: [],
+    }, ];
 
 function ServiceCard ({ service }) {
     return (
